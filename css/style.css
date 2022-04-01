@@ -156,6 +156,7 @@
   }
   .row {
     color: white;
+    width: 50%;
   }
 
   body {
@@ -171,6 +172,7 @@
 
   .header {
     margin-bottom: 10px;
+    width: 50%;
   }
 
   .hero-feature {
@@ -198,8 +200,24 @@
   }
   .well {
     background-color: #127c6377 !important;
+
+  }
+  .well-sm{
+    width: 100%;
   }
   legend {
     color: white !important;
   }
+  .form-horizontal{
+    width: 100%;
+
+  }
+  .col-md-12{
+    width: 100%;
+
+  }
+  .form-group{
+    width: 70%;
+  }
+  
 }
