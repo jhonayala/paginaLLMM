@@ -219,5 +219,8 @@
   .form-group{
     width: 70%;
   }
+  .col-md-6{
+    width: 50%;
+  }
   
 }
