@@ -1,0 +1,28 @@
+@media all {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .textMie1 {
+    text-decoration-color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+  }
+  .textMie1tam {
+    font-size:large;
+  }
+  .textlibros1 {
+    font-size: 300%;
+    margin-left: 30px;
+    color: white;
+  }
+  .text2title{
+      margin-left: 20px;
+       text-align:center;
+       margin-right: 30px;
+  }
+  .textCT-MIE1{
+      text-align: center;
+  }
+}

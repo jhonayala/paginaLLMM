@@ -1,0 +1,108 @@
+@media all {
+  * {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  table {
+    width: 50px;
+
+    /* Con las dos siguientes líneas se centra la tabla en la página */
+    margin-left: auto;
+    margin-right: auto;
+
+    color: #06425c;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 0%;
+  }
+
+  caption {
+    border: 3px solid;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(15, 129, 99);
+    color: white;
+    font-size: 30px;
+    padding: 1%;
+    text-shadow: 3px 1px 5px #faf8f8;
+  }
+
+  tr {
+    height: 80px;
+    vertical-align: center;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  th {
+    text-align: center;
+    background: #acddf0;
+    border: 1px outset grey;
+    border-radius: 10px;
+  }
+
+  .cabecera {
+    height: 30px;
+    font-size: 18px;
+  }
+
+  .horas {
+    background-color: #acddf0;
+    border: 1px outset grey;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+
+  .tic {
+    background-color: #a5d6a7;
+    border-radius: 10px;
+  }
+
+  .seginf {
+    background-color: #e987f1;
+    border-radius: 10px;
+  }
+
+  .lc {
+    background-color: #46032f;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .lm {
+    background-color: #290fbb;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .guardia {
+    background-color: #cccccccc;
+    border-radius: 10px;
+  }
+
+  .gtde {
+    background-color: #99631c;
+    color: white;
+    border-radius: 40px;
+  }
+
+  .newbook {
+    background-color: #f5d51f;
+    border-radius: 10px;
+  }
+
+  .MIE {
+    background-color: #0df5f5;
+    border-radius: 10px;
+  }
+
+  .libre {
+    background-color: #ffffff00;
+    border-radius: 10px;
+  }
+
+  .celdapeq {
+    height: 40px;
+  }
+}

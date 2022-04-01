@@ -1,0 +1,205 @@
+@media all {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  /*Style----------------------------------------------------------------*/
+  section {
+    margin-bottom: 60px;
+  }
+  section:last-child {
+    margin-bottom: 0;
+  }
+  section h2 {
+    margin-bottom: 30px;
+  }
+  button {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    padding: 15px 45px;
+    font-size: 20px;
+    font-family: "Bitter", serif;
+    line-height: 1.8;
+    vertical-align: bottom;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+  button:focus {
+    outline: none;
+  }
+  .flat button {
+    color: #fff;
+    background-color: #45514d;
+    /*text-shadow: -1px 1px #417cb8;*/
+    border: none;
+  }
+  .flat button:hover,
+  .flat button.hover {
+    background-color: #7fb070;
+    /*text-shadow: -1px 1px #27496d;*/
+  }
+  section.flat button:active,
+  section.flat button.active {
+    background-color: #27496d;
+    text-shadow: -1px 1px #193047;
+  }
+  section.border button {
+    color: #6496c8;
+    background: rgba(0, 0, 0, 0);
+    border: solid 5px #6496c8;
+  }
+  section.border button:hover,
+  section.border button.hover {
+    border-color: #346392;
+    color: #346392;
+  }
+  section.border button:active,
+  section.border button.active {
+    border-color: #27496d;
+    color: #27496d;
+  }
+
+  @media all and (max-width: 960px) {
+    button {
+      font-size: 30px;
+    }
+  }
+  @media all and (max-width: 720px) {
+    button {
+      font-size: 20px;
+      padding: 10px 30px;
+    }
+  }
+  @media all and (max-width: 540px) {
+    section {
+      text-align: center;
+    }
+    button {
+      margin: 0 10px 20px 10px;
+      font-size: 16px;
+    }
+  }
+
+  .navbar-inverse {
+    background-color: #160090 !important;
+  }
+  .navbar-inverse .navbar-brand,
+  .navbar-inverse .navbar-nav > li > a {
+    color: #d7d7d7;
+  }
+  a {
+    color: white !important;
+  }
+  a:hover {
+    text-decoration: none !important;
+  }
+  .sobrenosotros {
+    color: rgb(255, 255, 255) !important;
+  }
+  .centratexto {
+    text-align: center;
+  }
+  .bodyfondo {
+    background-color: black;
+  }
+  .title {
+    text-align: center;
+    color: white;
+    
+
+    font-size: 500%;
+  }
+  .menuPosition {
+    align-content: right;
+  }
+  .indexbodymargin {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .imgMargin {
+    margin-top: 2px;
+    margin-bottom: 10px;
+  }
+  .bodyimgfondo {
+    background-image: url("imagenes/espacio.jpg");
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+  }
+  .bodyimgfondoLe {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.626),
+        rgba(0, 0, 0, 0.612)
+      ),
+      url("imagenes/fondoleer.jpg");
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+  }
+  .bodyfondofoot{
+    background-image: url("imagenes/fondofooter.jpg" );
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+
+  }
+  .row {
+    color: white;
+  }
+
+  body {
+    padding-top: 0px;
+  }
+
+  .hero-spacer {
+    margin-left: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 0px;
+  }
+
+  .header {
+    margin-bottom: 10px;
+  }
+
+  .hero-feature {
+    margin-bottom: 30px;
+  }
+
+  footer {
+    margin: 50px 0;
+  }
+  .jumbotron {
+    background-image: url("imagenes/fondofooter.jpg") !important;
+
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+  }
+
+  h1 {
+    color: white !important;
+  }
+  .jumbotron p {
+    color: white !important;
+    margin-right: 0%;
+  }
+  .well {
+    background-color: #127c6377 !important;
+  }
+  legend {
+    color: white !important;
+  }
+}
