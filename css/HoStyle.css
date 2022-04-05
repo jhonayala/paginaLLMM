@@ -43,7 +43,7 @@
   }
 
   .cabecera {
-    height: 30px;
+    height: 30%;
     font-size: 18px;
   }
 
@@ -51,58 +51,58 @@
     background-color: #acddf0;
     border: 1px outset grey;
     font-weight: bold;
-    border-radius: 10px;
+    border-radius: 10%;
   }
 
   .tic {
     background-color: #a5d6a7;
-    border-radius: 10px;
+    border-radius: 10%;
   }
 
   .seginf {
     background-color: #e987f1;
-    border-radius: 10px;
+    border-radius: 10%;
   }
 
   .lc {
     background-color: #46032f;
     color: white;
-    border-radius: 10px;
+    border-radius: 10%;
   }
 
   .lm {
     background-color: #290fbb;
     color: white;
-    border-radius: 10px;
+    border-radius: 10%;
   }
 
   .guardia {
     background-color: #cccccccc;
-    border-radius: 10px;
+    border-radius: 10%;
   }
 
   .gtde {
     background-color: #99631c;
     color: white;
-    border-radius: 40px;
+    border-radius: 40%;
   }
 
   .newbook {
     background-color: #f5d51f;
-    border-radius: 10px;
+    border-radius: 10%;
   }
 
   .MIE {
     background-color: #0df5f5;
-    border-radius: 10px;
+    border-radius: 10%;
   }
 
   .libre {
     background-color: #ffffff00;
-    border-radius: 10px;
+    border-radius: 10%;
   }
 
   .celdapeq {
-    height: 40px;
+    height: 10%;
   }
 }
