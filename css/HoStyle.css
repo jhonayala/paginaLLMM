@@ -1,11 +1,26 @@
-@media all {
+
+
+@media screen {
+    
+  #encabezado{
+    height: auto;
+}
+#contenido{
+    width: auto;
+}
+#barra_lateral{
+    display:none;
+}
+
+
+
   * {
     margin: 0%;
     padding: 0%;
   }
 
   table {
-    width: 35%;
+    width: 40%;
     height: auto;
 
     /* Con las dos siguientes líneas se centra la tabla en la página */
@@ -16,6 +31,9 @@
     border: 1px solid grey;
     border-radius: 20px;
     padding: 0%;
+  }
+  .tabla{
+    width: auto;
   }
 
   caption {
@@ -44,7 +62,7 @@
   }
 
   .cabecera {
-    height: 30%;
+    height: 28%;
     font-size: 18px;
   }
 
