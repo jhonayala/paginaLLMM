@@ -5,7 +5,8 @@
   }
 
   table {
-    width: 50%;
+    width:40%;
+    height: auto;
 
     /* Con las dos siguientes líneas se centra la tabla en la página */
     margin-left: auto;
@@ -29,9 +30,9 @@
   }
 
   tr {
-    height: 80px;
+    height: 80%;
     vertical-align: center;
-    border-radius: 20px;
+    border-radius: 20%;
     text-align: center;
   }
 
@@ -39,7 +40,7 @@
     text-align: center;
     background: #acddf0;
     border: 1px outset grey;
-    border-radius: 10px;
+    border-radius: 10%;
   }
 
   .cabecera {
