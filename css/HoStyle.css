@@ -1,12 +1,4 @@
-
-
 @media all {
-    
- 
-
-
-
-
   * {
     margin: 0%;
     padding: 0%;
@@ -14,7 +6,7 @@
 
   table {
     width: 40%;
-    height: auto;
+    
 
     /* Con las dos siguientes líneas se centra la tabla en la página */
     margin-left: auto;
@@ -25,7 +17,7 @@
     border-radius: 20px;
     padding: 0%;
   }
-  .tabla{
+  .tabla {
     width: auto;
   }
 
