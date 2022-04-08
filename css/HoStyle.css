@@ -35,7 +35,7 @@
   }
 
   tr {
-    height: 80%;
+    height: 60%;
     vertical-align: center;
     border-radius: 20%;
     text-align: center;
@@ -49,21 +49,14 @@
   }
 
   .cabecera {
-    height: 28%;
+    height: 10%;
     font-size: 15px;
+    width: 10%;
   }
 
-  .horas {
-    background-color: #acddf0;
-    border: 1px outset grey;
-    font-weight: bold;
-    border-radius: 10%;
-  }
+ 
 
-  .tic {
-    background-color: #a5d6a7;
-    border-radius: 10%;
-  }
+  
 
   .seginf {
     background-color: #e987f1;
@@ -85,6 +78,7 @@
   .guardia {
     background-color: #cccccccc;
     border-radius: 10%;
+    
   }
 
   .gtde {
@@ -96,19 +90,28 @@
   .newbook {
     background-color: #f5d51f;
     border-radius: 10%;
+    height: 15%;
+    width: 15%;
   }
 
   .MIE {
     background-color: #0df5f5;
     border-radius: 10%;
+    height: 15%;
+    width: 15%;
   }
 
   .libre {
     background-color: #ffffff00;
     border-radius: 10%;
+    height: 15%;
+    width: 15%;
   }
 
   .celdapeq {
-    height: 10%;
+    
+    height: 15%;
+    width: 16%;
+   
   }
 }
