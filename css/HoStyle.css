@@ -7,7 +7,7 @@
   table {
     margin-top: 10%;
     margin-bottom: 10%;
-    width: 40%;
+    width: 35%;
     
 
     /* Con las dos siguientes líneas se centra la tabla en la página */
@@ -29,13 +29,13 @@
     text-align: center;
     background-color: rgb(15, 129, 99);
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     padding: 1%;
     text-shadow: 3px 1px 5px #faf8f8;
   }
 
   tr {
-    height: 80%;
+    height: 55%;
     vertical-align: center;
     border-radius: 20%;
     text-align: center;
@@ -45,7 +45,7 @@
     text-align: center;
     background: #acddf0;
     border: 1px outset grey;
-    border-radius: 10%;
+    border-radius: 20%;
   }
 
   .cabecera {
