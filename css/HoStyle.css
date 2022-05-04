@@ -7,7 +7,7 @@
   table {
     margin-top: 10%;
     margin-bottom: 10%;
-    width: 40%;
+    width: 35%;
     
 
     /* Con las dos siguientes líneas se centra la tabla en la página */
@@ -29,13 +29,13 @@
     text-align: center;
     background-color: rgb(15, 129, 99);
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     padding: 1%;
     text-shadow: 3px 1px 5px #faf8f8;
   }
 
   tr {
-    height: 100%;
+    height: 55%;
     vertical-align: center;
     border-radius: 20%;
     text-align: center;
@@ -45,18 +45,25 @@
     text-align: center;
     background: #acddf0;
     border: 1px outset grey;
-    border-radius: 10%;
+    border-radius: 20%;
   }
 
   .cabecera {
-    height: 10%;
-    font-size: 15px;
-    width: 10%;
+    height: 26%;
+    font-size: 16px;
   }
 
- 
+  .horas {
+    background-color: #acddf0;
+    border: 1px outset grey;
+    font-weight: bold;
+    border-radius: 10%;
+  }
 
-  
+  .tic {
+    background-color: #a5d6a7;
+    border-radius: 10%;
+  }
 
   .seginf {
     background-color: #e987f1;
@@ -78,7 +85,6 @@
   .guardia {
     background-color: #cccccccc;
     border-radius: 10%;
-    
   }
 
   .gtde {
@@ -90,28 +96,19 @@
   .newbook {
     background-color: #f5d51f;
     border-radius: 10%;
-    height: 15%;
-    width: 15%;
   }
 
   .MIE {
     background-color: #0df5f5;
     border-radius: 10%;
-    height: 15%;
-    width: 15%;
   }
 
   .libre {
     background-color: #ffffff00;
     border-radius: 10%;
-    height: 15%;
-    width: 15%;
   }
 
   .celdapeq {
-    
-    height: 15%;
-    width: 16%;
-   
+    height: 10%;
   }
 }
